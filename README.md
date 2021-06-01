@@ -4,7 +4,6 @@ Name = input("Enter your name here:")
 print("Hello " + Name + "!!!")
 
 print("It's good to be back:)")
-It's good to be back:)
 Name = "John"
 Age = 19
 Username = "john_123"
