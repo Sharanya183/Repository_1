@@ -1,9 +1,6 @@
-print("Hello World")
-num = []
-num.append(1)
-num.append(23)
-num.append(0)
-print(num)
-print(sorted(num))
-
-
+Name = input("Enter your name: ")
+Age = int(input("Enter your age: "))
+if Age < 13:
+    print("Sorry kid, I'm afraid you'll have to wait few years.")
+else:
+    print("Oh you're gonna love this series!")
