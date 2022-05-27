@@ -1,3 +1,12 @@
-nums = [1, 2, 3, 4, 5, 555, 4, 2, 3, 212, 3, 4, 334, 11]
-num = sorted(nums)
-print(num[-1])
+#Weight converting#
+
+weight = float(input("Weight: "))
+unit = input(str("units[L(lbs)/K(kg)]"))
+if unit.upper() == "L":
+    weigh = 0.45*weight
+    print(f"{weigh} kilograms")
+elif unit.upper() == "K":
+    weigh = 2.20*weight
+    print(f"{weigh} pounds")
+else:
+    print("didn't catch that")
